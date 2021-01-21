@@ -1,0 +1,114 @@
+
+*{ margin: 0; padding: 0; }* 
+body { font: 14px Tahoma; line-height: 1.7em; background: url("roomsplitka.png"); color: #444; text-align: justify; }
+
+a { color: #E60000;	background: inherit; text-decoration: none; }
+a:hover { color: #AA0001; background: inherit; text-decoration: underline; }
+p { margin: 0 0 10px 10px; }
+h1 { color: #363636; font-size: 16px; margin: 0 0 10px 10px; }
+h2 { color: #1b669b; font-size: 15px; margin: 0 0 10px 10px; }
+h3 { color: #56B010; font-size: 15px; margin: 0 0 10px 10px; }
+img { border: 0; }
+
+#content { width: 980px; background: #fff; border: 1px solid #e0e0e0; margin: 0 auto; padding: 5px 5px 0 5px; border-top: 5px solid #eee; }
+.ads { padding: 0 0 5px 10px; margin: 0 0 0 0; }
+
+#top { float: right; text-align: right; }
+#logo { float: left; margin: 0 0 0 10px; color: #808080; line-height: 25px; }
+
+#addc { float: left; margin: 10px 0 0 0; }
+#addc a { font-weight: bold; color: #ffffff; text-transform: uppercase; background: #da4a38; border-radius: 3px; border: 1px solid #cd5c5c; padding: 5px 15px 5px 15px; }
+#addc a:hover { color: #ffffff; background: #c83929; }
+
+.informer { overflow: hidden; width: 700px; padding: 0 0 10px 10px; }
+.tovar { border: 1px solid #d0d0d0; border-radius: 5px; box-shadow: 0 1px 2px 0 #d0d0d0; background: #fff; overflow: hidden; float: left; width: 163px; margin: 0 10px 0 0}
+.fototovar { display: block; position: relative; margin: 5px 0 0 1px; }
+.nametovar { min-height: 50px; border: 1px solid #f1f1f1; border-left: none; border-right: none; padding: 10px 7px; margin-top: 5px; }
+.linktovar { font-weight: bold; text-transform: uppercase; text-align: left; }
+.linktovar a { font-size: 12px; color: #4387fd; }
+.linktovar a:hover { color: #4387fd; }
+.pricetovar { padding: 5px 7px 0; overflow: hidden; }
+.newpricetovar { font-weight: bold; font-size: 12px; margin: 0; float: right; display: inline-block; }
+.oldpricetovar { font-size: 12px; margin: 0; text-decoration: line-through; color: #9f9f9f; float: left; display: inline-block; }
+
+#menu { height: 30px; padding: 10px 0 0 0; clear: both;  margin: 0 0 18px; background: #fff; }
+#menu li { font-size: 16px Arial; font-weight: bold; display: inline; }
+#menu li a { margin: 0 45px 0 10px; color: #363636; }
+#menu li a:hover { color: #444; }
+#menu #addcomp a { color: #ffffff; text-transform: uppercase; background: #da4a38; border-radius: 3px; border: 1px solid #cd5c5c; padding: 5px 15px 5px 15px; }
+#menu #addcomp a:hover { color: #ffffff; background: #c83929; }
+#menu #catcomp a { color: #4387fd; text-transform: uppercase; background: #ebeae8; border-radius: 3px; border: 1px solid #e0e0e0; padding: 5px 15px 5px 15px; }
+#menu #catcomp a:hover { color: #3e7eec; background: #e1e1e0; }
+#menu #mraznoe a { color: #4387fd; text-transform: uppercase; background: #ebeae8; border-radius: 3px; border: 1px solid #e0e0e0; padding: 5px 15px 5px 15px; }
+#menu #mraznoe a:hover { color: #3e7eec; background: #e1e1e0; }
+
+#main { float: left; width: 700px; margin: 0 0 20px; }
+#main img { border:1px solid #444; padding: 2px; margin: 0 10px 0 5px; }
+#main ol { margin: 0 0 0 30px; font-size: 14px; color: #1b174e; }
+#line { clear: both; padding: 3px; margin: 0 0 5px; background: #fff url("smalldot.gif") repeat-x; }
+#menuright { float: right; width: 250px; }
+#menuright img { border:1px solid #444; padding: 2px; margin: 10px 0 10px 0; }
+
+.mk a { color: #0088E8; font-size: 14px; text-decoration: none; }
+.mk a:hover { color: #cd5c5c; font-size: 14px; }
+.mk .mk1 { margin: 0 0 5px 0; padding: 13px 0 2px 40px; background: url("mk1.jpg") 8px 10px no-repeat; border: 1px solid #e0e0e0; }
+.mk .mk2 { margin: 5px 0 5px 0; padding: 13px 0 2px 40px; background: url("mk2.jpg") 8px 10px no-repeat; border: 1px solid #e0e0e0; }
+.mk .mk3 { margin: 5px 0 5px 0; padding: 13px 0 2px 40px; background: url("mk3.jpg") 8px 10px no-repeat; border: 1px solid #e0e0e0; }
+.mk .mk4 { margin: 5px 0 5px 0; padding: 13px 0 2px 40px; background: url("mk4.jpg") 8px 10px no-repeat; border: 1px solid #e0e0e0; }
+
+.mzagolovok { margin: 15px 0 10px 0; color: #363636; font-size: 13px; font-weight: bold; text-transform: uppercase; background: #eee; padding: 5px 15px; }
+
+.mfirm a { color: #444; font-size: 13px; font-weight: bold; text-decoration: none; }
+.mfirm a:hover { color: #cd5c5c; font-size: 13px; font-weight: bold; }
+.mfirm .mfpro { margin: 5px 0 5px 0; padding: 1px 0 0 35px; background: url("pro.png") 0 5px no-repeat; border: 0 solid #fff; }
+.mfirm .mfgold { margin: 5px 0 5px 0; padding: 1px 0 0 35px; background: url("gold.png") 0 6px no-repeat; border: 0 solid #fff; }
+.mfirm .mfgold a { color: #b59001; }
+.mfirm .mfgold a:hover { color: #cd5c5c; }
+
+.catalog { width: 100%; padding: 15px 0 15px 15px; }
+.catalog td { padding: 0 40px 0 0; vertical-align: top }
+.catalog td a { display: block; font: 12px Arial; color: #323232; padding: 1px 0 0 15px; background: url("") 0 5px no-repeat; text-decoration: none; }
+.catalog td a:hover { font: 12px Arial; color: #cd5c5c; background: url("") 0 5px no-repeat; }
+
+.mainfirm { padding: 5px 10px 0 0; margin: 0 0 10px 10px; background: #f8f5f5; border: 1px solid #e0dede; }
+.mainfirm h3 { font-size: 15px; height: 20px; color: #56B010; padding: 0 0 0 25px; background: url("standart.png") 0 0 no-repeat; }
+
+.ttt { clear: both; margin: 0 5px 10px 10px; }
+.ttt li { display: inline; font-weight: bold; color: #393939; }
+.ttt .telefon { float: right; padding: 2px 10px 2px 10px; font-weight: bold; background: #fff; color: #cd5c5c; margin: 0 2px 0 0; border: 1px solid #e0dede; }
+
+.firmprice { margin: 0 0 0 10px; padding: 0 0 10px 0; }
+.firmprice table { width: 100%; border: 1px solid #e0e0e0; border-collapse: separate; margin: 0 0 13px 0; }
+.firmprice td { font-size: 12px; padding: 5px 5px; background: #ffffff; text-align: center; }
+.firmprice .shade { font-size: 13px; background: #f4f4f4; font-weight: bold; color: #56B010; text-align: center; }
+
+.pro { font-size: 15px; height: 20px; color: #444; font-weight: bold; padding: 0 0 0 35px; background: url("pro.png") 0 1px no-repeat; margin: 0 0 10px 10px; }
+.gold { font-size: 15px; height: 20px; color: #b59001; font-weight: bold; padding: 0 0 0 35px; background: url("gold.png") 0 1px no-repeat; margin: 0 0 10px 10px; }
+.gold a { font-size: 15px; color: #b59001; font-weight: bold; text-decoration: underline; }
+.gold a:hover { font-size: 15px; color: #cd5c5c; font-weight: bold; text-decoration: underline; }
+
+#put { padding: 3px 10px 0 10px; margin: 0 0 10px 10px; border: 1px solid #eeeeee; background: #f8f5f5; font-size: 12px; font-weight: bold; color: #535252; }
+#put a { font-size: 12px; font-weight: bold; color: #1aa300; text-decoration: underline; }
+#put a:hover { font-size: 12px; font-weight: bold; color: #cd5c5c; text-decoration: underline; }
+#put p { margin: 0 0 3px 10px; }
+#ramka { padding: 10px; margin: 0 0 10px 0; border: 1px solid #848484; background: #f8f5f5; }
+.redzagolovok { font-size: 15px; color: #B40404; font-weight: bold; padding: 0 0 0 25px; }
+.add-about { font-size: 13px; padding: 5px 10px; background: #f4f4f4; }
+#main #pr-about { font-size: 12px; background: #f9edea; border: #ea8e7c solid 1px; margin: 5px 5px 10px 10px; padding: 8px 14px 11px; color: #222; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px; border-radius: 8px; -moz-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.11); -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.11); box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.11) }
+#main #pr-about  li { margin: 5px 5px 5px 15px; }
+.dot { height: 1px; font-size: 0px; margin: 10px 0 15px 0; background: url("") repeat-x }
+.redtext { font-size: 14px; color: #B40404; font-weight: bold; padding: 0 0 0 10px; }
+.redtext a { font-size: 14px; color: #B40404; font-weight: bold; }
+
+.border { clear: both; border-left: 4px solid #ccc; margin: 10px 0 15px 12px; padding: 0 0 0 15px; }
+.bigborder { clear: both; border-left: 4px solid #ccc; padding: 0 0 0 15px; margin: 10px 0 15px 12px; font-weight: bold; font-size: 15px; }
+#mytop { margin: 5px 0 10px 0; padding: 0 0 0 5px; float: left; width: 690px; text-align: justify; }
+#down { margin: 0 5px 10px 0; padding: 0 0 0 15px; float: right; width: 970px; text-align: justify; }
+#r1 { float: left; width: 300px; margin: 0 20px 5px 0; }
+#r2 { float: left; width: 300px; margin: 0 20px 5px 0; }
+#r3 { float: left; width: 300px; margin: 0 20px 5px 0; }
+#r1 li, #r2 li, #r3 li { list-style: none; border-bottom: 1px solid #eee; padding: 4px; margin: 0; }
+#r1 li a, #r2 li a, #r3 li a { background: #fff url("") no-repeat center left; padding: 0 0 0 12px; color: #808080;  }
+
+#footer { clear: both; padding: 10px; margin: 0 0 5px; font-size: 12px; color: #808080; background: #eee; }
+#fl { width: 800px; }
